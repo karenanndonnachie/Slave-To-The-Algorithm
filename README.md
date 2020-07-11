@@ -1,3 +1,5 @@
+<img src="aiga-eod-kim-albrecht-distinction-machine-rectangles-three-cmy.gif" width="350" />
+
 # Slave-To-The-Algorithm
 Studio-related & useful code
 This Repository is for students and studio colleagues to find, store and share code for Slave To The Algorithm.
