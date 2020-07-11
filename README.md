@@ -1,4 +1,5 @@
 <img src="aiga-eod-kim-albrecht-distinction-machine-rectangles-three-cmy.gif" width="350" />
+Kim Albrecht, Distinction machine rectangles CMY
 
 # Slave-To-The-Algorithm
 Studio-related & useful code
