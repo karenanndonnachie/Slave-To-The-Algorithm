@@ -5,7 +5,7 @@ Kim Albrecht, Distinction machine rectangles CMY
 Studio-related & useful code
 This Repository is for students and studio colleagues to find, store and share code for Slave To The Algorithm.
 
-## Processing
+## <a href="https://github.com/karenanndonnachie/Slave-To-The-Algorithm/tree/master/Processing">Processing</a>
 In this folder you will find useful contributions, snippets and references for the Processing Environment (Java Mode)
 
 ## P5js
