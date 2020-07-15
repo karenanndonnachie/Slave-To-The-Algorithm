@@ -8,7 +8,7 @@ This Repository is for students and studio colleagues to find, store and share c
 ## <a href="https://github.com/karenanndonnachie/Slave-To-The-Algorithm/tree/master/Processing">Processing</a>
 In this folder you will find useful contributions, snippets and references for the Processing Environment (Java Mode)
 
-## P5js
+## <a href="https://github.com/karenanndonnachie/Slave-To-The-Algorithm/tree/master/P5js">P5js</a>
 In this folder you will find useful contributions, snippets and references for Processing p5js Mode (Processing for the web)
 
 ## Python
