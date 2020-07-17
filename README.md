@@ -13,7 +13,7 @@ In this folder you will find useful contributions, snippets and references for t
 ## <a href="https://github.com/karenanndonnachie/Slave-To-The-Algorithm/tree/master/P5js">P5js</a>
 In this folder you will find useful contributions, snippets and references for Processing p5js Mode (Processing for the web)
 
-## Python
+## [Python](Python/)
 In this folder you will find useful contributions, snippets and references for Python coding
 
 ## Javascript/CSS/HTML
