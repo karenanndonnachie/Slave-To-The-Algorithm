@@ -13,7 +13,7 @@ In this folder you will find useful contributions, snippets and references for t
 ## [P5js](P5js/)
 In this folder you will find useful contributions, snippets and references for Processing p5js Mode (Processing for the web)
 
-# [Javascript](Javascript/)
+## [Javascript](Javascript/)
 In this folder you will find code examples, links and resources for Javascript (web) coding
 
 ## [Python](Python/)
