@@ -2,7 +2,7 @@
 Studio-related & useful code
 This Repository is for students and studio colleagues to find, store and share code for Slave To The Algorithm.
 
-## First Things First
+## [First Things First](FAQ_start.md)
 :bust_in_silhouette: [Making an account](https://github.com/)<br/>
 :computer: [Setting up your Github](https://docs.github.com/en/github/getting-started-with-github) <br/>
 :man_dancing: Editing pages & styling with [Github Markup language](https://guides.github.com/features/mastering-markdown/)
