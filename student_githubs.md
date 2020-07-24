@@ -4,3 +4,4 @@
 
 https://github.com/LouisEastt/Slave2/
 https://github.com/connor-mcnamara/Slave-to-the-algorithm
+## Hao Xiao | https://github.com/KasperHao/Slave-to-the-Algorithm
