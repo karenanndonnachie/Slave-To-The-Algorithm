@@ -14,4 +14,5 @@ https://github.com/michaelw-lam/S.T.H.A.2020 <br/>
 
 
 
-https://github.com/arrthuzdkdkdk/algorithmslave
+https://github.com/arrthuzdkdkdk/algorithmslave <br/>
+https://github.com/hoikeiblahblahblah/Slave-to-the-algorithm <br/>
