@@ -4,3 +4,7 @@
 
 https://github.com/LouisEastt/Slave2/
 https://github.com/connor-mcnamara/Slave-to-the-algorithm
+
+
+
+https://github.com/mabryson/slavetoalg
