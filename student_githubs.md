@@ -3,3 +3,4 @@
 ## Name | Repo address
 
 https://github.com/LouisEastt/Slave2/
+https://github.com/arrthuzdkdkdk/algorithmslave
