@@ -15,3 +15,7 @@ https://github.com/mikewlam/S2A <br/>
 
 
 https://github.com/arrthuzdkdkdk/algorithmslave
+
+
+
+https://github.com/ChantelLai/Slave-to-the-Algorithm
