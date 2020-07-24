@@ -14,13 +14,4 @@ https://github.com/michaelw-lam/S.T.H.A.2020 <br/>
 
 
 
-
-
-
-
-
-
-
-
-
-https://github.com/nicholaswinter/slave2al
+https://github.com/arrthuzdkdkdk/algorithmslave
