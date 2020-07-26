@@ -24,4 +24,4 @@
 ### Yasmin Brewer | https://github.com/yasminhb/slavetothealgorithm <br/>
 ### Tsu-Yen Kung | https://github.com/evie102214 <br/>
 ### Ka Wai Mak | https://github.com/GarveyMak123/Slave-to-the-Algorith <br/>
-### Chae Young Shin | https://github.com/s3661656
+### Chae Young Shin | https://github.com/s3661656/slave-to-algorithm
