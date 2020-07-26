@@ -12,7 +12,9 @@ You will tell me your github address in class and you will add it to [this docum
 
 :bust_in_silhouette: [Making an account](https://github.com/)<br/>
 :computer: [Setting up your Github](https://docs.github.com/en/github/getting-started-with-github) <br/>
-:man_dancing: Editing pages & styling with [Github Markup language](https://guides.github.com/features/mastering-markdown/)
+:man_dancing: Editing pages & styling with [Github Markup language](https://guides.github.com/features/mastering-markdown/)<br/>
+<br/>
+If you need more help with starting your Github pages you can see [this FAQ.](FAQ_start.md)
 
 ## <a href="https://github.com/karenanndonnachie/Slave-To-The-Algorithm/tree/master/Processing">Processing</a>
 In this folder you will find useful contributions, snippets and references for the Processing Environment (Java Mode)
