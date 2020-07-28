@@ -30,7 +30,7 @@ In this folder you will find useful contributions, snippets and references for P
 ## [HTML/CSS](HTML_CSS)
 In this folder you will find useful contributions, snippets and references for HTML & CSS coding for web
 
-### Resources available on Canvas, Google Drive, and wwwwwwwww
+## Resources available on Canvas, Google Drive, and wwwwwwwww
 [Reading List](https://rmit.instructure.com/courses/76067/pages/readings-references-resources) —lots of stuff I couldn't find in the Library, is on the internets, or I already had it scanned and was not available in digital format through the library.
 
 [The RMIT Library-connected Reading List](https://rmit.instructure.com/courses/76067/external_tools/29157) —not everything is available digitally
