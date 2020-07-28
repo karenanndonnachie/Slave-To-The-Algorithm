@@ -1,5 +1,4 @@
-# Slave-To-The-Algorithm
-Studio-related & useful code
+# Slave-To-The-Algorithm {Studio-related & useful code}
 This Repository is for students and studio colleagues to find, store and share code for Slave To The Algorithm.
 
 Look in each week's /code folder for snippets from the weekly workshops. Each week's 'readme' will have links to artists. Each week will be listed here as it gets activated.
