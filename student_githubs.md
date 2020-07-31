@@ -20,7 +20,7 @@
 ### Sam Linford Koesterke | https://github.com/samkoesterke/slave-1 <br/>
 ### Shidi Xue | https://github.com/ShidiX-1 <br/>
 ### Minh Anh Nguyen | https://github.com/kathyminhanh97/slavetothealgorithm <br/>
-### Hunjung Lee | https://github.com/hunoong/Slave-To-The-Algorithm <br/>
+### Hunjung Lee |  https://github.com/hunoong/slave2-A <br/>
 ### Yasmin Brewer | https://github.com/yasminhb/slavetothealgorithm <br/>
 ### Tsu-Yen Kung | https://github.com/evie102214 <br/>
 ### Ka Wai Mak | https://github.com/GarveyMak123/Slave-to-the-Algorith <br/>
