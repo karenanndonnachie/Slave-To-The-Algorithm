@@ -4,7 +4,7 @@
 ### Louis Eastaugh | https://github.com/LouisEastt/Slave2/ <br/>
 ### Connor McNamara | https://github.com/connor-mcnamara/Slave-to-the-algorithm <br/>
 ### Madisyn Bryson | https://github.com/mabryson/slavetoalg <br/>
-### Michael Lam | https://github.com/michaelw-lam/S.T.H.A.2020 <br/>
+### Michael Lam | https://github.com/mikewlam/s2a <br/>
 ### Shane Lee | https://github.com/shanelee102/Slave-to-the-Algorithm <br/>
 ### Hao Xiao | https://github.com/KasperHao/Slave-to-the-Algorithm <br/>
 ### Alice yu | https://github.com/aliceyu1111/Slave-to-the-Algorithm <br/>
