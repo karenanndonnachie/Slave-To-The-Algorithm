@@ -15,5 +15,5 @@ rect (x1, y1, w, h) | height | pmouseX | stroke (r,g,b,a) colour
 ellipse(cx, cy, w, h) | random (min, max) | pmouseY | noStroke()
 triangle(x1,y1,x2,y2,x3,x3) | translate(x,y) | keyPressed() | noFill()
 quad(x1,y1,x2,y2,x3,y3,x4,y4) | scale () | mousePressed() | strokeWeight(1) -->thickness
-star (??)* | rotate (radians(°)) | millis() | color c = img.get (x,y)
+arc (x1,y1,anchor1x,anchor1y,x2,y2,anchor2x,anchory2y)* | rotate (radians(°)) | millis() | color c = img.get (x,y)
 
