@@ -13,6 +13,7 @@ We started with an overview of some work I have made with Andy Simionato (hint: 
 
 **Activity 1: Roll the Dice!**
 We broke into groups to do some 'parametric drawing'. You were tasked with setting up rules by which you drew to a an artboard or piece of paper (url or irl) and we looked at the differences of rules and the differences of outcomes. We saw the first hints of `algorithmic bias` creeping in to our assumptions :) 
+![](Screen%20Shot%202020-07-24%20at%201.53.26%20pm.JPG)<br/> Student logic for `Roll the Dice!` activity 
 
 **Activity 2: Get on Git!**
 As your SKO for this semester will be delivered as a Github Repository, our next task was to get everyone an account and establish a 'repo' for the course, with a 'readme.md' in the main directory and a week1 folder.  Instructions on how to do this are linked through from the readme on the Slave To The Algorithm 2020 Repo. Then, we collectively edited the file ../student_githubs.md and I processed in real time your edits (or "pull requests") as Github refers to them. You can see a recording on how to merge requests [here](https://drive.google.com/drive/folders/1_PzC6nqs1x8XRx8axmFNbs0G_5BmVThA?usp=sharing). We saw how the Github system allows you to create a web page from your account, so you could integrate this system to show your work in progress and/or your final project in a browser [more on this as we move forward].
