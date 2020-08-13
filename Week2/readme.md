@@ -14,8 +14,8 @@ You should be posting extended research into the field + documentation of in-cla
 ## PROCESSING: 
 We have made a cracking start to learning Processing, and with a small push next week you will be able to confidently create your own simple design works. By the end of next week's (shorter) class you should be able to manipulate shapes, pictures and text with code. We will not work so intensely on Processing every week, but I do want every one of you to be comfortable with the basic drawing functions. I just wanted to thank you all for bringing such a positive attitude to what can be a daunting first step :) See the class github (Links to an external site.) for more code examples and 'cheatsheets'.
 ### PROCESSING- HOMEWORK: Before next week's class, 
-* 1) please remix someone's code from the [group portraits](https://docs.google.com/presentation/d/1v8lqNxFf1I9KQwnq0WP4O4X91jkJRPxp6sYsOyW4EDI/edit?ts=5f238e39#) and 
-* 2) look at the Processing examples in the in-built 'examples' folder (available under file/examples), &/or online at Open processing https://openprocessing.org &/or in the [Processing Gallery](https://processing.org/exhibition/) or anywhere else in the webiverse where Processing sketches may live and be shared.
+* Please remix someone's code from the [group portraits](https://docs.google.com/presentation/d/1v8lqNxFf1I9KQwnq0WP4O4X91jkJRPxp6sYsOyW4EDI/edit?ts=5f238e39#) and 
+* Look at the Processing examples in the in-built 'examples' folder (available under file/examples), &/or online at Open processing https://openprocessing.org &/or in the [Processing Gallery](https://processing.org/exhibition/) or anywhere else in the webiverse where Processing sketches may live and be shared.
 
 * PLEASE CHOOSE AT LEAST ONE sketch to share in class as a case study—be ready to demonstrate to the class the sketch you found, and explain why you found it interesting. You do not have to understand how it works, but great if you do :)
 
