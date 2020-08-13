@@ -11,7 +11,7 @@ Slides from the Instructional art & First steps in Processing [here](https://dri
 Please start populating your Githubs with the material we covered in class. You can organise this as you like, but you may find it useful to make a new 'folder' / directory for each week into which you can add the images/sketch folders etc and the summary of the week's research/process can be in that folder's readme.md.
 You should be posting extended research into the field + documentation of in-class work + reflective documentation on own practice (this makes more sense when we start working on our assignments) and of course your code.
 
-## PROCESSING: 
+## [PROCESSING](../Processing/): 
 We have made a cracking start to learning Processing, and with a small push next week you will be able to confidently create your own simple design works. By the end of next week's (shorter) class you should be able to manipulate shapes, pictures and text with code. We will not work so intensely on Processing every week, but I do want every one of you to be comfortable with the basic drawing functions. I just wanted to thank you all for bringing such a positive attitude to what can be a daunting first step :) See the [Processing Folder](../Processing/) for more code examples and 'cheatsheets'.
 
 ### PROCESSING- HOMEWORK: Before next week's class, 
