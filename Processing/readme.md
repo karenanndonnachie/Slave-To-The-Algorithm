@@ -21,4 +21,4 @@ bezier(x1,y1,anchor1x,anchor1y,x2,y2,anchor2x,anchory2y)* | rotate (radians(°))
 
 NB. some changes have recently been made to Processing (some sketches you find may have old syntax): 
 * `angleMode()` has been removed. But you can convert to radians to degrees via the `radians()` function, i.e.: `radians(90)`
-* You can set 'temporary' settings to your shapes/text/objects by using `pushMatrix();` *before* your settings (eg. `translate()`; `rotate();` etc. and then 'UNDO' these settings by using `popMatrix();` after your settings
+* TIP! Set 'temporary' settings to your shapes/text/objects by using `pushMatrix();` *before* your settings (eg. `translate()`; `rotate();` etc. and then 'UNDO' these settings by using `popMatrix();` after your settings
