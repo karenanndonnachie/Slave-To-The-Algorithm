@@ -31,6 +31,8 @@ In this folder you will find useful contributions, snippets and references for P
 In this folder you will find useful contributions, snippets and references for HTML & CSS coding for web
 
 ## Resources available on Canvas, Google Drive, and wwwwwwwww
+[Karen & Andy's Readme! Reading list](http://digbeyond.com/readme/phplist.php?course=Generative%20Design) — Andy and I use this space for our courses. These are mostly scans from books on our shelves. this list gets updated regularly.
+
 [Reading List](https://rmit.instructure.com/courses/76067/pages/readings-references-resources) —lots of stuff I couldn't find in the Library, is on the internets, or I already had it scanned and was not available in digital format through the library.
 
 [The RMIT Library-connected Reading List](https://rmit.instructure.com/courses/76067/external_tools/29157) —not everything is available digitally
