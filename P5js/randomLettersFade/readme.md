@@ -1,2 +1,2 @@
 # Random Letters Everywhere, they fade ...
-You can see the sketch in action here: https://karenanndonnachie.github.io/Slave-To-The-Algorithm/P5js/randomLettersFade/
+You can see the sketch in action here: https://karenanndonnachie.github.io/Slave-To-The-Algorithm/P5js/randomLettersFade/index.html
