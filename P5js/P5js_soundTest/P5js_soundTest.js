@@ -1,3 +1,5 @@
+// This sketch allows us to 'read' the values of the song such as frequency, volume and pitch.
+// The song can stop and start and vibrate a circle in response to volume.
 var song; //here we give a name to our song variable
 var analyzer;
 function preload(){
