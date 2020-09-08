@@ -25,6 +25,7 @@ function mousePressed(){ //triggers on mousepress
   if (song.isPlaying()){ //checks if the song is playing!!
   song.stop(); // if it is, then stop the song
   song.noLoop();
+  background(0);
   fill(0,255,0);
   } 
   else { fill(255,0,0); //changes fill to red
