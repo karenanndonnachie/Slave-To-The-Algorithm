@@ -1,2 +1,2 @@
 # Random letters, everywhere, with erasure...
-see the sketch in action here: https://simandy.github.io/codewords/processing/randomLettersErase/index.html
+see the sketch in action here: https://karenanndonnachie.github.io/Slave-To-The-Algorithm/P5js/randomLettersErase/
