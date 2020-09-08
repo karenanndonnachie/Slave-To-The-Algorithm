@@ -21,6 +21,6 @@ function draw() {
   background(255);
   textLeading(sin(frameCount*0.01)*50);
   //textLeading(mouseY/5);
-  text(myText, int(windowWidth/8), windowHeight/8, int(windowWidth/4*3), windowHeight);
+  text(myText, int(windowWidth/8), windowHeight/4, int(windowWidth/4*3), windowHeight);
   
 }
