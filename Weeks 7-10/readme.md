@@ -2,9 +2,9 @@
 
 Some useful links for your projects (perhaps)
 
-Project Library or Tool -------------------------------------------------------- | Link 
+Project Library or Tool                                                          | Link 
 -------------------------------------------------------------------------------- | --- 
-Acoustic Guitar Chord analysis (in Python but the math is interesting) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | https://makersportal.com/blog/2018/9/20/audio-processing-in-python-part-iii-guitar-string-theory-and-frequency-analysis 
+Acoustic Guitar Chord analysis (in Python but the math is interesting) | https://makersportal.com/blog/2018/9/20/audio-processing-in-python-part-iii-guitar-string-theory-and-frequency-analysis 
 2 wheel drawbot | http://rasterweb.net/raster/2011/10/24/friday-night-drawbot-v3/  
 Lots of P5.js (javascript) Processing sketches | https://www.openprocessing.org/ 
 P5.js sketch for web-based multi-user participation | https://medium.com/openprocessing/collaborative-sketches-1643d9751777 
