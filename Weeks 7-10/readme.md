@@ -3,7 +3,7 @@
 Some useful links for your projects (perhaps)
 
 Project Library or Tool  | Link | Note
---- | --- | ---
+---------------------------- | --- | ---
 Acoustic Guitar Chord analysis (in Python but the math is interesting) | https://makersportal.com/blog/2018/9/20/audio-processing-in-python-part-iii-guitar-string-theory-and-frequency-analysis | 
 2 wheel drawbot | http://rasterweb.net/raster/2011/10/24/friday-night-drawbot-v3/ |  
 Lots of P5.js (javascript) Processing sketches | https://www.openprocessing.org/ |
