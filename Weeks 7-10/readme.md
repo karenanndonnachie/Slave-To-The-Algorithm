@@ -1,4 +1,4 @@
-# Weeks 7-10 : Javascript / Arduino / Project resources
+# Weeks 7-10 Project resources : : Javascript / Arduino / Miscellaneous...
 
 Some useful links for your projects (perhaps)
 
