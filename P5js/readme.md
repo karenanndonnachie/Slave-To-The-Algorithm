@@ -1,5 +1,4 @@
-# P5js is Processing for Web
-## some P5js helper codes
+# P5js is Processing for Web & some P5js helper codes
 ### Tutorial transition from Processing to P5js https://github.com/processing/p5.js/wiki/Processing-transition
 
 ## Mouse Events
