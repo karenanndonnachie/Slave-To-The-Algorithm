@@ -61,3 +61,7 @@ etc. Here is a list of the mouse related functions in p5js:
   }
 }
 </pre>
+
+## P5.play :  a library for p5.js for animation, gaming and using sprites
+Paolo Pedercini's p5.play Library: http://molleindustria.github.io/p5.play/ <br/>
+Allison Parrish explains it all : https://creative-coding.decontextualize.com/making-games-with-p5-play/
