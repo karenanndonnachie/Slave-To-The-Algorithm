@@ -14,7 +14,7 @@ P5.js sketch for web-based multi-user participation | https://medium.com/openpro
 Multi-User (Same as above) but with node.js [advanced] | https://github.com/processing/p5.js/wiki/p5.js,-node.js,-socket.io
 Activity monitor from Arduino + Android | https://create.arduino.cc/projecthub/andreanapoletani/arduino-genuino-101-build-an-activity-recognition-device-fbeea2| 
 DRAWING ROBOT	2 wheel drawbot |	http://rasterweb.net/raster/2011/10/24/friday-night-drawbot-v3/	https://www.auselectronicsdirect.com.au/2-wheel-drive-ultrasonic-arduino-robot-kit
-ARDUINO + SENSORS	arduino firmata [or how to use sensors inside Processing] Arduino + Processing. The easiest way to make Arduino and processing talk is via Firmata. Firmata is a program that runs on Arduino and allows you to control it from Processing. Basically, you'll upload Firmata on your board once then you can close the Arduino app (the IDE) and then simply work from Processing.	
+ARDUINO + SENSORS	arduino firmata [or how to use sensors inside Processing] Arduino + Processing. The easiest way to make Arduino and processing talk is via Firmata. Firmata is a program that runs on Arduino and allows you to control it from Processing. Basically, you'll upload Firmata on your board once then you can close the Arduino app (the IDE) and then simply work from Processing. | https://www.arduino.cc/en/reference/firmata
 COLOUR + COMPUTER VISION	colour tracking Computer Vision	
 PROCESSING openprocessing.org	 | https://www.openprocessing.org/	
 OBJECT -> OBJECT COMMUNICATION (OVER WEB)- Amazon Web Services IoT tracking (to get random objects to talk to each other  through the web	 | https://docs.aws.amazon.com/iot/latest/developerguide/register-device.html	
