@@ -1,6 +1,6 @@
-var isRecording = true; //assign as true when you want to record
+var isRecording = false; //assign as true when you want to record
 var firstFrame = 1; //choose a starting point to record
-var lastFrame = 160; //choose an ending point to finish recording
+var lastFrame = 60; //choose an ending point to finish recording
 var letter,size,rand,speed,xposition, yposition;
 var wigglyLetters = [];
 function setup() {
