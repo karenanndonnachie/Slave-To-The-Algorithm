@@ -45,4 +45,4 @@ In this folder you will find useful contributions, snippets and references for H
 
 [Other recordings](https://drive.google.com/drive/folders/1_PzC6nqs1x8XRx8axmFNbs0G_5BmVThA?usp=sharing) —Including How-to's, walkthroughs, works and miscellany
 
-[Marc Garrett (Furtherfield) P2P AI / ML Open Source Knowledge base](https://marcgarrett.wordpress.com/2020/09/11/an-open-p2p-resource-for-ai-technology-art-academia-and-activism/?customize_changeset_uuid=893017cd-a26b-41e4-9052-ab4a3eb5d39b&customize_autosaved=on)
+[Marc Garrett (Furtherfield) An Open P2P Resource for AI technology: Art, Academia and Activism (Knowledge base)](https://marcgarrett.wordpress.com/2020/09/11/an-open-p2p-resource-for-ai-technology-art-academia-and-activism/?customize_changeset_uuid=893017cd-a26b-41e4-9052-ab4a3eb5d39b&customize_autosaved=on)
