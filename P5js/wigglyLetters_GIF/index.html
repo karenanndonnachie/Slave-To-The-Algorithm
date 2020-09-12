@@ -7,14 +7,14 @@
   <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
   <script language="javascript" type="text/javascript" src="libraries/p5.sound.min.js"></script>
   <script language="javascript" type="text/javascript" src="libraries/p5.dom.min.js"></script>
-  <script language="javascript" type="text/javascript" src="libraries/helpers.js"></script>
-  <script language="javascript" type="text/javascript" src="js/gif.worker.js"></script>
-  <script language="javascript" type="text/javascript" src="libraries/CCapture.all.min.js"></script>
   <script language="javascript" type="text/javascript" src="wigglyLetters_GIF.js"></script>
   <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
-<script>
+  <script src="CCapture.all.min.js"></script>
+  <script src="js/gif.worker.js"></script>
+  
+  <script>
     var capturer = new CCapture( {
-    framerate: 30,
+    framerate: 60,
     format: 'gif',
     workersPath: './js/',
     verbose: true

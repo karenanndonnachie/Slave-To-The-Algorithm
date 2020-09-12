@@ -1,15 +1,16 @@
-var isRecording = false; //assign as true when you want to record
-var firstFrame = 1; //choose a starting point to record
-var lastFrame = 60; //choose an ending point to finish recording
 var letter,size,rand,speed,xposition, yposition;
 var wigglyLetters = [];
+var canvas;
+var gifLength = 180;
 function setup() {
-  canvasToRecord =createCanvas(windowWidth, windowHeight).canvas;
+  var p5Canvas = createCanvas(windowWidth/2,windowHeight/2);
+  canvas = p5Canvas.canvas;
   background(0);
   textSize(32);
   textFont("Times");
   xposition = 0;
   yposition = 50;
+  capturer.start();
   
 }
 function draw() {
@@ -20,7 +21,12 @@ function draw() {
     wigglyLetters[i].wiggle();
     wigglyLetters[i].display();
   }
-  recordGIF();
+  if (frameCount < gifLength) {
+    capturer.capture(canvas);
+  } else if (frameCount === gifLength) {
+    capturer.stop();
+    capturer.save();
+  }
 }
 function mousePressed(){
    rand = int(random(65,160));
@@ -44,12 +50,11 @@ function keyPressed(){
    xposition = 0;
   }
   else if (keyCode === DOWN_ARROW) {
-   isRecording = true;
+   capturer.capture(canvas);
   }
   else if (keyCode === UP_ARROW) {
-   //capturer.stop()
-   capturer.save()
-   isRecording = false; 
+   capturer.stop();
+   capturer.save();
   }
 }
 class Wiggle {
