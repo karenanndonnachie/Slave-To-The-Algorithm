@@ -14,7 +14,7 @@
   <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
 <script>
     var capturer = new CCapture( {
-    framerate: 60,
+    framerate: 30,
     format: 'gif',
     workersPath: './js/',
     verbose: true
@@ -23,7 +23,16 @@
   </script>
   <!-- This line removes any default padding and style.
        You might only need one of these values set. -->
-  <style> body { padding: 0; margin: 0; } </style>
+  <style>
+    body {
+      margin:0;
+      padding:0;
+      overflow: hidden;
+    }
+    canvas {
+      margin:auto;
+    }
+  </style>
 </head>
 
 <body>
