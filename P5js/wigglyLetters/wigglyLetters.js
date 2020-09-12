@@ -1,4 +1,4 @@
-var isRecording = false; //assign as true when you want to record
+var isRecording = true; //assign as true when you want to record
 var firstFrame = 1; //choose a starting point to record
 var lastFrame = 160; //choose an ending point to finish recording
 var letter,size,rand,speed,xposition, yposition;
@@ -10,7 +10,7 @@ function setup() {
   textFont("Times");
   xposition = 0;
   yposition = 50;
-  
+  frameRate(12);
 }
 function draw() {
   fill(255);
@@ -44,7 +44,10 @@ function keyPressed(){
    xposition = 0;
   }
   else if (keyCode === DOWN_ARROW) {
-   isRecording = true;
+   //isRecording = true;
+  }
+  else if (keyCode === UP_ARROW) {
+   isRecording = false;
   }
 }
 class Wiggle {
