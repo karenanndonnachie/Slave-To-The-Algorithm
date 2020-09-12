@@ -44,3 +44,5 @@ In this folder you will find useful contributions, snippets and references for H
 [Collaborate Recordings](https://rmit.instructure.com/courses/76067/external_tools/546) —When we choose to record stuff through Collaborate Ultra
 
 [Other recordings](https://drive.google.com/drive/folders/1_PzC6nqs1x8XRx8axmFNbs0G_5BmVThA?usp=sharing) —Including How-to's, walkthroughs, works and miscellany
+
+[Marc Garrett (Furtherfield) P2P AI / ML Open Source Knowledge base](https://marcgarrett.wordpress.com/2020/09/11/an-open-p2p-resource-for-ai-technology-art-academia-and-activism/?customize_changeset_uuid=893017cd-a26b-41e4-9052-ab4a3eb5d39b&customize_autosaved=on)
