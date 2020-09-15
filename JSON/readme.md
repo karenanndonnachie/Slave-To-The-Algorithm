@@ -71,7 +71,7 @@ function doText(data) {
 }
 </code></pre>
 
-### Note 
+## Note 
 Be aware that if you tried to do something like the following, nothing shows up. This is because the program starts and calls loadStrings, but it moves on to doText before loadStrings completes. At the point where doText runs, the variable "data" is not yet set to anything. This is that asynchronous thing we were talking about.
 
 <pre><code>
