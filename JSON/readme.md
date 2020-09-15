@@ -4,7 +4,7 @@ JSON (JavaScript Object Notation) is a standard way to provide machine readable 
 
 A JSON object is an unordered set of name/value pairs. An object begins with { (left brace) and ends with } (right brace). Each name is followed by : (colon) and the name/value pairs are separated by , (commas). The name is always a string, the value can be a string, number, boolean, array, or a nested object.
 
-<pre>{
+<pre><code>{
   "firstName": "John",
   "lastName": "Smith",
   "age": 25,
@@ -27,11 +27,11 @@ A JSON object is an unordered set of name/value pairs. An object begins with { (
   "gender":{
     "type":"male"
   }
-}</pre>
+}</code></pre>
 
 If this were JSON data we loaded into a Javascript application, it would be stored in a variable, like this:
 
-<pre>var mydata = {
+<pre><code>var mydata = {
   "firstName": "John",
   "lastName": "Smith",
   "age": 25,
@@ -43,11 +43,11 @@ If this were JSON data we loaded into a Javascript application, it would be stor
   }
   ...
 };
-</pre>
+</code></pre>
 Now you can access it with the variable mydata:
 
 `alert('I am at' + mydata.address.streetAddress);`
-##AJAX with p5.js
+## AJAX with p5.js
 p5.js has a variety of methods for using AJAX to retrieve files from a server. These include:
 
 loadStrings - loads .txt files
@@ -56,7 +56,7 @@ loadXML - loads .xml files
 loadTable - loads .csv files
 loadStrings
 loadStrings loads a text file and returns an array of strings. It takes two arguments, the path to the file, and the callback function. When the server has returned the text data and it has been parsed, doText is run with the result automatically passed in as the variable "data".
-<pre>
+<pre><code>
 function setup() {
   createCanvas(600, 400);
   fill(0);
@@ -69,11 +69,12 @@ function doText(data) {
     text(data[i], 5, 20 * i+20);
   }
 }
-</pre>
+</code></pre>
+
 ### Note 
 Be aware that if you tried to do something like the following, nothing shows up. This is because the program starts and calls loadStrings, but it moves on to doText before loadStrings completes. At the point where doText runs, the variable "data" is not yet set to anything. This is that asynchronous thing we were talking about.
 
-<pre>
+<pre><code>
 function setup() {
   createCanvas(600, 400);
   fill(0);
@@ -87,14 +88,14 @@ function doText(data) {
     text(data[i], 5, 20 * i+20);
   }
 }
-</pre>
+</code></pre>
 
 ## loadJSON
 loadJSON loads a JSON file and returns a JavaScript object. It takes two arguments, the path to the file, and the callback function. When the server has returned the JSON data and it has been parsed, drawData is run with the result automatically passed in as the variable "data".
 
 ## JSON file:
 
-<pre>
+<pre><code>
 { "person1" : {
     "name": "Morgan",
     "age": "30",
@@ -110,11 +111,11 @@ loadJSON loads a JSON file and returns a JavaScript object. It takes two argumen
     "fear": "Irrationality"
   }
 }
-</pre>
+</code></pre>
 
 ## JS file:
 
-<pre>
+<pre><code>
 function setup() {
   createCanvas(600, 400);
   noStroke();
@@ -135,7 +136,7 @@ function drawData(data) {
   fill(255);
   text(data.person2.name, 330, 200); // person2.name = Joss
 }
-</pre>
+</code></pre>
 
 ## External URLs
 In addition to local files, loadJSON can also load external URLs. Unfortunately, there are quite a few security restrictions on making AJAX requests across domains. If you are interested in investigating those and how to overcome them, checkout this: http://www.html5rocks.com/en/tutorials/cors/. Fortunately, since we are using libraries such as p5.js we don't have to worry so much.
@@ -144,7 +145,7 @@ openweathermap.org has a pretty easy to use API for weather data in cities aroun
 
 It's a good idea to try just putting the url string directly into your browser address bar first to make sure it returns data. If you see JSON data appear there, then try adding it into your p5.js sketch.
 
-<pre>
+<pre><code>
 var bubbles = [];
 
 function setup() {
@@ -167,7 +168,7 @@ function drawWeather(weather) {
     ellipse(random(width), random(height), 30, 30);
   }
 }
-</pre>
+</code></pre>
 
 ## loadXML
 loadXML loads an XML file and returns an XML object. It takes two arguments, the path to the file, and the callback function. It's a little messier to work with XML objects, but you can learn about how to do that here.
@@ -175,7 +176,7 @@ loadXML loads an XML file and returns an XML object. It takes two arguments, the
 ## preload
 If you'd prefer not to deal with asynchronous callbacks, p5.js also has a function called "preload" that lets you load external files synchronously before setup is run. If a preload function is defined, setup will wait until any load calls within have finished. This allows you to access the file data in setup and draw without needing a callback. Nothing besides load calls should be inside preload (loadImage, loadJSON, loadStrings, loadXML, etc).
 
-<pre>
+<pre><code>
 var lines;
 
 function preload() {
@@ -194,4 +195,4 @@ function draw() {
     text(lines[i], 5, 20 * i+20);
   }
 }
-</pre>
+</code></pre>
