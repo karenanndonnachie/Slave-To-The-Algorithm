@@ -66,7 +66,7 @@ function setup() {
 
 function doText(data) {
   for (var i=0; i<data.length; i++) {
-    text(data[i], 5, 20*i+20);
+    text(data[i], 5, 20 * i+20);
   }
 }
 </pre>
@@ -84,7 +84,7 @@ function setup() {
 
 function doText(data) {
   for (var i=0; i<data.length; i++) {
-    text(data[i], 5, 20*i+20);
+    text(data[i], 5, 20 * i+20);
   }
 }
 </pre>
@@ -191,7 +191,7 @@ function setup() {
 
 function draw() {
   for (var i=0; i<lines.length; i++) {
-    text(lines[i], 5, 20*i+20);
+    text(lines[i], 5, 20 * i+20);
   }
 }
 </pre>
