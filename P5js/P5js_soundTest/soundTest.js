@@ -23,11 +23,11 @@ function draw() {
   //ellipse(width/2,height/2,volume,volume);
   fill(255);
   textSize(volume*2);
-  //translate(width/2,height/2);
+  translate(width/2,height/2);
   textX=map(volume, 0, 400, 0, windowWidth);
   textY=map(volume, 0, 400, 0, windowHeight);
   rotate(volume);
-  text('DANCE!', textX, textY);
+  text('DANCE!', 0, 0);
 }
 
 function mousePressed() {
