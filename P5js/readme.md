@@ -4,7 +4,7 @@
 | In action       | Description | [P5 js Library](https://p5js.org/libraries/) | Possible use / demo | Example Sketch/folder |
 | --------------- | ------------- | ------------- | ------------- | ------------- |
 | <img src="poseNet_workingSketch.JPG" width="120" height="110" /> | Motion / Pose | poseNet  | Motion Tracking | <a href="poseNet/" target="_blank">poseNet/</a> |
-| <img src="soundTest_workingSketch.JPG" width="120" height="110" /> | Sound In / Out | [P5.sound.js](https://p5js.org/reference/#/libraries/p5.sound) | Play music / analyse sound | <a href="P5js_soundTest/" target="_blank">soundTest/</a> |
+| <img src="soundTest_workingSketch.JPG" width="120" height="110" /> | Sound In / Out / Volume etc | [P5.sound.js](https://p5js.org/reference/#/libraries/p5.sound) | Play music / analyse sound | <a href="P5js_soundTest/" target="_blank">soundTest/</a> |
 | <img src="textParaMobyDick_workingSketch.JPG" width="120" height="110" /> | Paragraph text | [P5 js](https://p5js.org/reference/) | Import text / animate as wave | <a href="TextParaMobyDick/" target="_blank">TextParaMobyDick/</a> |
 | <img src="spinnyText_workingSketch.JPG" width="120" height="110" /> | Import Fonts & Animate text | [P5 js](https://p5js.org/reference/)  | Translate/Rotate animate / map() function | <a href="spinnyText/" target="_blank">spinnyText/</a> |
 | <img src="randomLettersErase_workingSketch.JPG" width="120" height="110" /> | Lots of wiggly letters all over... | [P5 js](https://p5js.org/reference/) + [custom Class](https://p5js.org/reference/#/p5/class) | Fill Window with text, erase with mouse | <a href="randomLettersErase/" target="_blank">randomLettersErase/</a> |
