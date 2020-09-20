@@ -8,7 +8,7 @@
 | <img src="textParaMobyDick_workingSketch.JPG" width="120" height="110" /> | Paragraph text | [P5 js](https://p5js.org/reference/) | Import text / animate as wave | <a href="TextParaMobyDick/" target="_blank">TextParaMobyDick/</a> |
 | <img src="spinnyText_workingSketch.JPG" width="120" height="110" /> | Import Fonts & Animate text | [P5 js](https://p5js.org/reference/)  | Translate/Rotate animate / map() function | <a href="spinnyText/" target="_blank">spinnyText/</a> |
 | <img src="randomLettersErase_workingSketch.JPG" width="120" height="110" /> | Lots of wiggly letters all over... | [P5 js](https://p5js.org/reference/) + [custom Class](https://p5js.org/reference/#/p5/class) | Fill Window with text, erase with mouse | <a href="randomLettersErase/" target="_blank">randomLettersErase/</a> |
-| <img src="doodleVector_count_workingSketch.JPG" width="120" height="110" /> | Draw with Vectors & count points | [P5 js](https://p5js.org/reference/) + [custom Class](https://p5js.org/reference/#/p5/class) | Drawing app that tracks "complexity" | <a href="doodleVector_p5js/" target="_blank">doodleVector_p5js/</a> |
+| <a href="https://karenanndonnachie.github.io/Slave-To-The-Algorithm/P5js/doodleVector_p5js/" target="_blank"><img src="doodleVector_count_workingSketch.JPG" width="120" height="110" /></a> | Draw with Vectors & count points | [P5 js](https://p5js.org/reference/) + [custom Class](https://p5js.org/reference/#/p5/class) | Drawing app that tracks "complexity" | <a href="doodleVector_p5js/" target="_blank">doodleVector_p5js/</a> |
 
 ## Mouse Events
 Working with mouse events using p5js is easy. We can create sketches that do various things based on the mouse's position on the screen or when the mouse button is pressed, 
