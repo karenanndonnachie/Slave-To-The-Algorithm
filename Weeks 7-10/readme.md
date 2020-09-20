@@ -1,5 +1,5 @@
-# Weeks 7-10 Project resources : : Javascript / Arduino / Miscellaneous...
-Various sample sketches from P5js workshops / live-coding tutorials : https://github.com/karenanndonnachie/Slave-To-The-Algorithm/tree/master/P5js
+# Weeks 7-10 Project resources : Javascript / Arduino / [P5js](./P5js/) / Miscellaneous...
+[Various sample sketches from P5js workshops](https://github.com/karenanndonnachie/Slave-To-The-Algorithm/tree/master/P5js) / live-coding tutorials
 
 ### Some useful links for your projects (perhaps)
 
