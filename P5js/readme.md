@@ -1,8 +1,8 @@
 # P5js is Processing for Web & some P5js helper codes
 ### Tutorial transition from Processing to P5js https://github.com/processing/p5.js/wiki/Processing-transition
 ### Extra libraries to extend P5js : https://p5js.org/libraries/
-| In action --------------- | Description | [P5 js Library](https://p5js.org/libraries/) | Possible use / demo | Example Sketch/folder |
-| --------------- | ------------- | ------------- | ------------- | ------------- |
+| In action | Description | [P5 js Library](https://p5js.org/libraries/) | Possible use / demo | Example Sketch/folder |
+| ----------------- | ------------- | ------------- | ------------- | ------------- |
 | <a href= "https://karenanndonnachie.github.io/Slave-To-The-Algorithm/P5js/poseNet_test" target="_blank"><img src="poseNet_workingSketch.JPG" width="120" height="110" /><a/> | Motion / Pose | poseNet  | Motion Tracking | <a href="poseNet_test/" target="_blank">poseNet/</a> |
 | <img src="soundTest_workingSketch.JPG" width="120" height="110" /> | Sound In / Out / Volume etc | [P5.sound.js](https://p5js.org/reference/#/libraries/p5.sound) | Play music / analyse sound | <a href="P5js_soundTest/" target="_blank">soundTest/</a> |
 | <a href= "https://karenanndonnachie.github.io/Slave-To-The-Algorithm/P5js/TextParaMobyDick" target="_blank"><img src="textParaMobyDick_workingSketch.JPG" width="120" height="110" /></a> | Paragraph text | [P5 js](https://p5js.org/reference/) | Import text / animate as wave | <a href="TextParaMobyDick/" target="_blank">TextParaMobyDick/</a> |
