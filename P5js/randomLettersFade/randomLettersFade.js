@@ -16,5 +16,5 @@ function draw() {
  fill(0);
  textSize(random(5,50));
  text(letters[rand], random(width), random(height));
- background(255,1);
+ background(255,5);
 }
