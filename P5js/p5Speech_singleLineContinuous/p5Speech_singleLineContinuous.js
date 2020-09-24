@@ -1,7 +1,10 @@
-let lang = navigator.language || 'en-US';
-let speechRec = new p5.SpeechRec(lang, gotSpeech);
-let continuous = true;
-let interim = true;
+//Speech to text sketch by k.donnachie
+//September 2020
+//Based on p5js Speech to text library
+var lang = navigator.language || 'en-US';
+var speechRec = new p5.SpeechRec(lang, gotSpeech);
+var continuous = true;
+var interim = true;
 var runningText;
 function setup(){
   background(0);
