@@ -4,7 +4,8 @@ JSON (JavaScript Object Notation) is a standard way to provide machine readable 
 
 A JSON object is an unordered set of name/value pairs. An object begins with { (left brace) and ends with } (right brace). Each name is followed by : (colon) and the name/value pairs are separated by , (commas). The name is always a string, the value can be a string, number, boolean, array, or a nested object.
 
-<pre><code>{
+<pre><code>
+{
   "firstName": "John",
   "lastName": "Smith",
   "age": 25,
@@ -27,11 +28,13 @@ A JSON object is an unordered set of name/value pairs. An object begins with { (
   "gender":{
     "type":"male"
   }
-}</code></pre>
+}
+</code></pre>
 
 If this were JSON data we loaded into a Javascript application, it would be stored in a variable, like this:
 
-<pre><code>var mydata = {
+<pre><code>
+var mydata = {
   "firstName": "John",
   "lastName": "Smith",
   "age": 25,
