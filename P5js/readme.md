@@ -41,10 +41,28 @@ etc. Here is a list of the mouse related functions in p5js:
     <li><a href="http://p5js.org/reference/#/p5/touchStarted">touchStarted()</a></li>
     <li><a href="http://p5js.org/reference/#/p5/touchMoved">touchMoved()</a></li>
     <li><a href="http://p5js.org/reference/#/p5/touchEnded">touchEnded()</a></li>
+	<li><a href="https://p5js.org/reference/#/p5/deviceShaken">deviceShaken()</a></li>	    
 </ul>
+## Example of deviceShaken()
+<pre><code> 
+// Run this example on a mobile device
+// Shake the device to change the value.
 
+let value = 0;
+function draw() {
+  fill(value);
+  rect(25, 25, 50, 50);
+}
+function deviceShaken() {
+  value = value + 5;
+  if (value > 255) {
+    value = 0;
+  }
+}
+</code></pre>
 ## Example of Keyboard functions
-<pre>function keyPressed()
+<pre>
+function keyPressed()
 {
   // UP key
   if(keyCode == UP_ARROW)
