@@ -10,11 +10,13 @@
 | <a href= "https://karenanndonnachie.github.io/Slave-To-The-Algorithm/P5js/randomLettersErase/" target="_blank"><img src="randomLettersErase_workingSketch.JPG" width="120" height="110" /></a> | Lots of wiggly letters all over... | [P5 js](https://p5js.org/reference/) + [custom Class](https://p5js.org/reference/#/p5/class) | Fill Window with text, erase with mouse | <a href="randomLettersErase/" target="_blank">randomLettersErase/</a> |
 | <a href="https://karenanndonnachie.github.io/Slave-To-The-Algorithm/P5js/doodleVector_p5js/" target="_blank"><img src="doodleVector_count_workingSketch.JPG" width="120" height="110" /></a> | Draw with Vectors & count points | [P5 js](https://p5js.org/reference/) + [custom Class](https://p5js.org/reference/#/p5/class) | Drawing app that tracks "complexity" | <a href="doodleVector_p5js/" target="_blank">doodleVector_p5js/</a> |
 | <a href="https://karenanndonnachie.github.io/Slave-To-The-Algorithm/P5js/p5Speech_singleLineContinuous/" target="_blank"><img src="p5Speech_workingSketch.JPG" width="120" height="110" /></a> | Speech to Text from microphone | [P5 Speech library](https://idmnyu.github.io/p5.js-speech/) | Uses microphone as input, writes text to screen. Can also do the inverse (ie. read a text) | <a href="p5Speech_singleLineContinuous/" target="_blank">p5Speech_singleLineContinuous/</a> |
-| <a href="https://github.com/FreddieRa/p5.3D/wiki/Word3D" target="_blank"><img src="WEBGL_3D_P5js_github.JPG" width="120" height="110"> | 3D TEXT with WEBGL P5js | [Github Repo](https://github.com/FreddieRa/p5.3D/wiki/Word3D) | Can make words, shapes and more in 3D with WEBGL | no demo | 
+| <a href="https://github.com/FreddieRa/p5.3D/wiki/Word3D" target="_blank"><img src="WEBGL_3D_P5js_github.JPG" width="120" height="110"> | 3D TEXT with WEBGL P5js | [Github Repo](https://github.com/FreddieRa/p5.3D/wiki/Word3D) | Can make words, shapes and more in 3D with WEBGL | no demo  
+| <a href="https://karenanndonnachie.github.io/Slave-To-The-Algorithm/P5js/Input_loadSong/" target="_blank"><img src="inputLoadSong.JPG" width="120" height="110"/> | *USER UPLOAD* SOUND FILE & PLay
+
 ## Mouse Events
-Working with mouse events using p5js is easy. We can create sketches that do various things based on the mouse's position on the screen or when the mouse button is pressed, 
+Working with mouse events using p5js is easy. We can create sketches that do various things based on the mouse's position on the screen or when the mouse button is pressed,
 etc. Here is a list of the mouse related functions in p5js:
-<ul> 
+<ul>
 	<li><a href="http://p5js.org/reference/#/p5/mouseX">mouseX</a></li>
 	<li><a href="http://p5js.org/reference/#/p5/mouseY">mouseY</a></li>
 	<li><a href="http://p5js.org/reference/#/p5/pmouseX">pmouseX</a></li>
@@ -43,8 +45,9 @@ etc. Here is a list of the mouse related functions in p5js:
     <li><a href="http://p5js.org/reference/#/p5/touchEnded">touchEnded()</a></li>
 	<li><a href="https://p5js.org/reference/#/p5/deviceShaken">deviceShaken()</a></li>	    
 </ul>
+
 ## Example of deviceShaken()
-<pre><code> 
+<pre><code>
 // Run this example on a mobile device
 // Shake the device to change the value.
 
@@ -67,25 +70,25 @@ function keyPressed()
   // UP key
   if(keyCode == UP_ARROW)
   {
-    ypos = ypos - numPixels; 
+    ypos = ypos - numPixels;
   }
- 
+
   // DOWN key
   if(keyCode == DOWN_ARROW)
-  { 
-    ypos = ypos + numPixels; 
+  {
+    ypos = ypos + numPixels;
   }
- 
+
   // RIGHT key
   if(keyCode == RIGHT_ARROW)
   {
-    xpos = xpos + numPixels; 
+    xpos = xpos + numPixels;
   }
- 
+
   // LEFT key
   if(keyCode == LEFT_ARROW)
   {
-    xpos = xpos - numPixels; 
+    xpos = xpos - numPixels;
   }
 }
 </pre>
@@ -160,4 +163,3 @@ function draw() {
   }
   drawSprites();
 }</pre>
-
