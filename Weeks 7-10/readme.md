@@ -7,7 +7,6 @@ Class Friday 10 September:
 <li>How to use a class to create and move letters "wigglyLetters"</li>
 <li>Displaying text to the screen in paragraphs, eg. "Moby Dick" and how to animate it to look like a wave</li>
 <li>A demo of sprites in p5.play</li>
-
 </ul>
 
 # Week 8
@@ -47,6 +46,7 @@ Individual feedback and code debug (eg. multi-canvas, wordsplit, keytyped/keypre
 
 Project Library or Tool                                                          | Link
 -------------------------------------------------------------------------------- | ---
+Making [IRL] musical instruments from your p5js sketch, an Arduino, and some imagination | https://medium.com/@luisa.ph/making-your-own-musical-instruments-with-p5-js-arduino-and-webmidi-2422b9596791
 Acoustic Guitar Chord analysis (in Python but the math is interesting) | https://makersportal.com/blog/2018/9/20/audio-processing-in-python-part-iii-guitar-string-theory-and-frequency-analysis
 Gibber — web-based music / mixer / midi etc. | http://gibber.cc also available for P5js: http://charlie-roberts.com/gibber/p5-gibber/
 Colliding in P5js | https://github.com/bmoren/p5.collide2D
@@ -65,10 +65,10 @@ GESTURE -> SOUND - Gesture sound experiments | http://www.daniellewilde.com/swin
 INTERACTIVE MIRROR	Mirror / non-mirror work | 	http://ssbkyh.com/works/nonfacial_mirror/	http://ssbkyh.com/works/memory/
 COMPUTER VISION EXPERIMENTS — Some fantastic experiments in COMPUTER VISION by Shinseungback Kimyonghun	 | http://ssbkyh.com/works/nonfacial_portrait/	http://ssbkyh.com/works/cloud_face/
 HUMAN MOVEMENT FROM CAMERA — Webcam Pose detection HUMAN MOVEMENT	 | https://ml5js.org/docs/posenet-webcam	|
-IFTTT	Linking platfroms together — "If this then that" eg. if XXX tweets, send a notification etc...	 | http://ifttt.com	http://temboo.com
+IFTTT	Linking platforms together — "If this then that" eg. if XXX tweets, send a notification etc...	 | http://ifttt.com	http://temboo.com
 Servo controlled by Arduino	 | 	https://www.allaboutcircuits.com/projects/servo-motor-control-with-an-arduino/	 
 SMELLSENSORS — Instructable Arduino + | 	https://www.instructables.com/id/How-To-Smell-Pollutants/
-magnet etchasketch — magnet drawing with ferrous fluid?? magnetic ooze ?	 | https://www.youtube.com/watch?v=ppXRJy-5hOg
+magnet etch-a-sketch — magnet drawing with ferrous fluid?? magnetic ooze ?	 | https://www.youtube.com/watch?v=ppXRJy-5hOg
 xy plotter — ** go smaller than this A4 size?	 | https://opensource.com/article/18/3/diy-plotter-arduino	 
 another x y plotter (AKA CORE XY PLOTTER) — arduino + motors + 3d printed parts | 	https://www.thingiverse.com/thing:2374238
 Twitter stream	into Processing from Twitter	 | https://github.com/neufuture/SimpleTwitterStream
