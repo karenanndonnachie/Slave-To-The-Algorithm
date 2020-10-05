@@ -16,10 +16,14 @@ When prompted to name the file add a directory (with forward slash) before the n
 Edit your new "README.md"
 
 ## How do I style my README.MD file?
-Any file that ends in '.md' will be interpreted through Github's own flavour of MarkDown (styling). You can see all the possibilities in the [Github "Mastering Markdown" wiki.](https://guides.github.com/features/mastering-markdown/) 
+Any file that ends in '.md' will be interpreted through Github's own flavour of MarkDown (styling). You can see all the possibilities in the [Github "Mastering Markdown" wiki.](https://guides.github.com/features/mastering-markdown/)
 
 ## How do I add an image to my 'README.md' files?
 
 You can add images by uploading the image to the same folder (please keep them light jpg format <200kb).
 Then, you show your image on your "README" page by using general html markup, eg `<img src="yourImage.jpg" width="350" />` or you can use the Github MarkDown version which should be written like this: `![](archiSTORM_01_1.png?raw=true)` shows...
 ![](archiSTORM_01_1.png?raw=true)
+
+## How do I make my repo visible as a website?
+
+You will need to have either readme.md or index.html files in each directory you want to be viewable. You will need to activate Github Pages to set your Repo/Project/Branch as a web directory (got to settings). If no index.html files are found in the folder, the readme.md will be used as a base page and will be styled with Github's own markdown (a type of CSS/styling).
