@@ -12,7 +12,7 @@
 | <a href="https://karenanndonnachie.github.io/Slave-To-The-Algorithm/P5js/p5Speech_singleLineContinuous/" target="_blank"><img src="p5Speech_workingSketch.JPG" width="120" height="110" /></a> | Speech to Text from microphone | [P5 Speech library](https://idmnyu.github.io/p5.js-speech/) | Uses microphone as input, writes text to screen. Can also do the inverse (ie. read a text) | <a href="p5Speech_singleLineContinuous/" target="_blank">p5Speech_singleLineContinuous/</a> |
 | <a href="https://github.com/FreddieRa/p5.3D/wiki/Word3D" target="_blank"><img src="WEBGL_3D_P5js_github.JPG" width="120" height="110"> | 3D TEXT with WEBGL P5js | [Github Repo](https://github.com/FreddieRa/p5.3D/wiki/Word3D) | Can make words, shapes and more in 3D with WEBGL | no demo  
 | <a href="https://karenanndonnachie.github.io/Slave-To-The-Algorithm/P5js/Input_loadSong/" target="_blank"><img src="inputLoadSong.JPG" width="120" height="110"/> | *USER UPLOAD* SOUND FILE & PLay | [createFileInput()](https://p5js.org/reference/#/p5/createFileInput) | You can prompt users to upload their own sound file which then becomes "playable" with start / stop | [Input_loadSong](Input_loadSong/)
-| <a href="https://karenanndonnachie.github.io/Slave-To-The-Algorithm/P5js/Codewords_launch/" target="_blank"><img src="HairyCodeWords.JPG" width="120" height="110"> | 'Codewords' Text to points to lines | [textToPoints()](https://p5js.org/reference/#/p5.Font/textToPoints) | [Codewords_launch](Codewords_launch/)
+| <a href="https://karenanndonnachie.github.io/Slave-To-The-Algorithm/P5js/Codewords_launch/" target="_blank"><img src="HairyCodeWords.JPG" width="120" height="110"> | 'Codewords' Text to points to lines | [textToPoints()](https://p5js.org/reference/#/p5.Font/textToPoints) | Hover over centre cross to 'shorten the hair' |  [Codewords_launch](Codewords_launch/)
 
 ## Mouse Events
 Working with mouse events using p5js is easy. We can create sketches that do various things based on the mouse's position on the screen or when the mouse button is pressed,
@@ -66,6 +66,7 @@ function deviceShaken() {
 }
 </code>
 </pre>
+
 ## Example of Keyboard functions: keyTyped()
 <pre>
 <code>
@@ -86,7 +87,9 @@ function keyTyped(){
 }
 </pre>
 </code>
+
 ## Example of Keyboard functions: keyPressed()
+
 <pre>
 <code>
 function keyPressed()
