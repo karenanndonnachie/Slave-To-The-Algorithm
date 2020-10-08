@@ -84,7 +84,7 @@ function keyTyped(){
 	}
 	key=' ';
 }
-<pre>
+</pre>
 </code>
 ## Example of Keyboard functions: keyPressed()
 <pre>
