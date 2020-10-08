@@ -1,7 +1,7 @@
 # P5js is Processing for Web & some P5js helper codes
 ### Tutorial transition from Processing to P5js https://github.com/processing/p5.js/wiki/Processing-transition
 ### Extra libraries to extend P5js : https://p5js.org/libraries/
-| In&nbsp;action&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | [P5 js Library](https://p5js.org/libraries/) | Possible use / demo | Example Sketch/folder |
+| In&nbsp;action&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | [P5 js Library](https://p5js.org/libraries/) | Possible use / demo | Example Sketch/folder |
 | ----------------- | ------------- | ------------- | ------------- | ------------- |
 | <a href= "https://karenanndonnachie.github.io/Slave-To-The-Algorithm/P5js/poseNet_test" target="_blank"><img src="poseNet_workingSketch.JPG" width="120" height="110" /><a/> | Motion / Pose | poseNet  | Motion Tracking | <a href="poseNet_test/" target="_blank">poseNet/</a> |
 | <img src="soundTest_workingSketch.JPG" width="120" height="110" /> | Sound In / Out / Volume etc | [P5.sound.js](https://p5js.org/reference/#/libraries/p5.sound) | Play music / analyse sound | <a href="P5js_soundTest/" target="_blank">soundTest/</a> |
@@ -12,6 +12,7 @@
 | <a href="https://karenanndonnachie.github.io/Slave-To-The-Algorithm/P5js/p5Speech_singleLineContinuous/" target="_blank"><img src="p5Speech_workingSketch.JPG" width="120" height="110" /></a> | Speech to Text from microphone | [P5 Speech library](https://idmnyu.github.io/p5.js-speech/) | Uses microphone as input, writes text to screen. Can also do the inverse (ie. read a text) | <a href="p5Speech_singleLineContinuous/" target="_blank">p5Speech_singleLineContinuous/</a> |
 | <a href="https://github.com/FreddieRa/p5.3D/wiki/Word3D" target="_blank"><img src="WEBGL_3D_P5js_github.JPG" width="120" height="110"> | 3D TEXT with WEBGL P5js | [Github Repo](https://github.com/FreddieRa/p5.3D/wiki/Word3D) | Can make words, shapes and more in 3D with WEBGL | no demo  
 | <a href="https://karenanndonnachie.github.io/Slave-To-The-Algorithm/P5js/Input_loadSong/" target="_blank"><img src="inputLoadSong.JPG" width="120" height="110"/> | *USER UPLOAD* SOUND FILE & PLay | [createFileInput()](https://p5js.org/reference/#/p5/createFileInput) | You can prompt users to upload their own sound file which then becomes "playable" with start / stop | [Input_loadSong](Input_loadSong/)
+| <a href="https://karenanndonnachie.github.io/Slave-To-The-Algorithm/P5js/Codewords_launch/" target="_blank"><img src="HairyCodeWords.JPG" width="120" height="110"> | 'Codewords' Text to points to lines | [textToPoints()](https://p5js.org/reference/#/p5.Font/textToPoints) | [Codewords_launch](Codewords_launch/)
 
 ## Mouse Events
 Working with mouse events using p5js is easy. We can create sketches that do various things based on the mouse's position on the screen or when the mouse button is pressed,
@@ -47,7 +48,8 @@ etc. Here is a list of the mouse related functions in p5js:
 </ul>
 
 ## Example of deviceShaken()
-<pre><code>
+<pre>
+<code>
 // Run this example on a mobile device
 // Shake the device to change the value.
 
@@ -62,9 +64,31 @@ function deviceShaken() {
     value = 0;
   }
 }
-</code></pre>
-## Example of Keyboard functions
+</code>
+</pre>
+## Example of Keyboard functions: keyTyped()
 <pre>
+<code>
+function keyTyped(){
+  if (key === 'u' ){
+    myText1 = 'Utopias';
+    myText2 = 'Utopias';
+  }
+  else if (key === 'c'){
+    myText1 = 'Counteraction';
+    myText2 = 'Counteraction';
+  }
+  else {
+		myText1 = '';
+    myText2 = '';
+	}
+	key=' ';
+}
+<pre>
+</code>
+## Example of Keyboard functions: keyPressed()
+<pre>
+<code>
 function keyPressed()
 {
   // UP key
@@ -91,6 +115,7 @@ function keyPressed()
     xpos = xpos - numPixels;
   }
 }
+</code>
 </pre>
 
 # P5.play :  a library for p5.js for animation, gaming and using sprites
@@ -104,7 +129,9 @@ Please see here for the entire tutorial: https://creative-coding.decontextualize
 
 Creating a sprite in p5.play is accomplished using the createSprite() function. This function returns a sprite object, which itself has a number of attributes and methods that allow us to query and change properties of the sprite.
 Here’s a simple example that creates a single sprite:
-<pre>var spr;
+<pre>
+<code>
+var spr;
 function setup() {
   createCanvas(400, 400);
   spr = createSprite(
@@ -119,13 +146,17 @@ function draw() {
 function mousePressed() {
   spr.position.x = mouseX;
   spr.position.y = mouseY;
-}</pre>
+}
+</code>
+</pre>
 
 ## Multiple sprites
 You can call the createSprite() function as many times as you want to! The p5.play framework keeps track of all the sprites you’ve added behind the scenes (so you don’t need to create your own data structure to store them). In the following example, I’ve written some code in mousePressed() that creates a new sprite whenever the user clicks the mouse:
 
 ## For example.... Using sprites in groups
-<pre>var clouds;
+<pre>
+<code>
+var clouds;
 var birds;
 function setup() {
   createCanvas(400, 400);
@@ -162,4 +193,5 @@ function draw() {
     birds[i].attractionPoint(0.2, mouseX, mouseY);
   }
   drawSprites();
-}</pre>
+}
+</code></pre>
