@@ -6,22 +6,22 @@ function preload() {
 var spin=0;
 
 function setup() {
-  createCanvas(800,600);
+  createCanvas(windowWidth, windowHeight);
   background (255);
-  textFont (font2, 32); 
+  textFont (font2, 200); 
   //textSize(16);
-  textAlign (CENTER);
-  angleMode(DEGREES);
+  textAlign (CENTER,CENTER);
+  //angleMode(DEGREES);
   frameRate(10);
 }
 
 
 function draw() {
   fill(0);
-  translate (400,300);
+  translate (width/2,height/2);
   rotate(spin);
   text('hello world',0,0);
-  spin+=int(mouseX/100);
+  //spin+=int(mouseX/100);
   fill (255, 80);
-  rect (0,0,400,400);
+  //rect (0,0,400,400);
 }
