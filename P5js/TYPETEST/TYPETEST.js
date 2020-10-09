@@ -18,9 +18,9 @@ function setup() {
 
 function draw() {
   fill(0);
-  translate (width/2,height/2);
+  //translate (width/2,height/2);
   //rotate(spin);
-  text('hello world',0,0);
+  text('hello world',width/2,height/2);
   //spin+=int(mouseX/100);
   fill (255, 80);
   //rect (0,0,400,400);
