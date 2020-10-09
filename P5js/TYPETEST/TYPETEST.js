@@ -8,7 +8,7 @@ var spin=0;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background (255);
-  textFont (font2, 200); 
+  textFont (font2, 120); 
   //textSize(16);
   textAlign (CENTER,CENTER);
   //angleMode(DEGREES);
