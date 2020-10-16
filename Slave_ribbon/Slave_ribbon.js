@@ -21,7 +21,7 @@ var CHAINDETAILS = {
   textspacing:1
 };
 function preload(){
-  cursorImage = loadImage('data/CURSER_150px.png');
+  //cursorImage = loadImage('data/CURSER_150px.png');
   //for (let i=0; i<heroImages.length; i++){
     //BG=loadImage(random(heroImages));
   //}
