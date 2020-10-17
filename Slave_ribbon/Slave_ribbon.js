@@ -45,7 +45,7 @@ function setup(){
     lineY=tSize;
     textAlign(CENTER,CENTER);
     students=['Slave to the Algorithm', 'Michael Lam', 'Sam Koesterke', 'Maddy Bryson', 'Louis Eastaugh', 'Sylvain Girard', 'Hao Xiao', 'Shane Lee', 'Alice Yu', 'Yasmin Harith Brewer', 'Hun Lee', 'Shidi Xue', 'Yerim Kim', 'Chae Young Shin', 'Connor McNamara', 'Yang Hu', 'Nicholas Winter', 'KaiQi Chen', 'Vincent Bartels', 'Luka Jerkovic', 'Jinni Low', 'Wu Shuchen', 'Evie Kung', 'Kawai Mak', 'Kathy Nguyen'];    
-    links=['#','https://mikewlam.github.io/visceral-nonsense/projectfile/index.html', 'https://samkoesterke.github.io/slave-1/IF_BY_ARTEFACT_YOU_MEAN__A_DUSTY_OBJECT/', 'https://mabryson.github.io/', 'https://louiseastt.github.io/SURFBOR3D/generator/', 'https://sylvain-girard.github.io/Slave2theAlgo2020/week12/Chromaesthetor/', 'https://kasperhao.github.io/Slave-to-the-Algorithm/Dancing_match_2020_10_12_11_15_10/', 'https://shanelee102.github.io/', 'https://aliceyu1111.github.io/Slave-to-the-Algorithm/Week%2012/NotifyMyAddiction/', 'https://yasminhb.github.io/', 'https://hunoong.github.io/slave2-A/week12_Showcase/The_Beauty_of_Movements_ver01/', 'https://www.openprocessing.org/sketch/988332', 'https://yerim-kim.github.io/slave2algorithm/', 'https://s3661656.github.io/slave-to-algorithm/', 'https://connor-mcnamara.github.io/Slave-to-the-algorithm/Articulation_/', 'https://yanghu199.github.io/slave-to-the-algorithm./homepage', 'https://nicholaswinter.github.io/slave2al/FinalSubmission/hey/index.html', 'https://youtu.be/apVpvDNcP1o', 'https://v1nnyb4rt3l5.github.io/Slave-To-The-Algorithm-/Week%2012./MyTypeGenerator/index.html', 'https://arrthuzdkdkdk.github.io/algorithmslave/jazzcats2/', 'https://jinnilow.github.io/slavetoalgorithm/MEMCO_JINNI/', 'https://shuchenwuu.github.io/Slave-to-algorithm//Processing/Emotion_Printer/', 'https://evie102214.github.io/slave_to_the_algorithm_2020/homepage_ass3/', 'https://github.com/GarveyMak123/Slave-to-the-Algorithm/tree/master/StarField', 'https://kathyminhanh97.github.io/slavetothealgorithm/showcase'];
+    links=['#','https://mikewlam.github.io/visceral-nonsense/projectfile/index.html', 'https://samkoesterke.github.io/slave-1/IF_BY_ARTEFACT_YOU_MEAN__A_DUSTY_OBJECT/', 'https://mabryson.github.io/', 'https://louiseastt.github.io/SURFBOR3D/generator/', 'https://sylvain-girard.github.io/Slave2theAlgo2020/week12/Chromaesthetor/', 'https://kasperhao.github.io/Slave-to-the-Algorithm/Dancing_match_2020_10_12_11_15_10/', 'https://shanelee102.github.io/', 'https://aliceyu1111.github.io/Slave-to-the-Algorithm/Week%2012/NotifyMyAddiction/', 'https://yasminhb.github.io/', 'https://hunoong.github.io/slave2-A/week12_Showcase/The_Beauty_of_Movements_ver02/', 'https://www.openprocessing.org/sketch/988332', 'https://yerim-kim.github.io/slave2algorithm/', 'https://s3661656.github.io/slave-to-algorithm/', 'https://connor-mcnamara.github.io/Slave-to-the-algorithm/Articulation_/', 'https://yanghu199.github.io/slave-to-the-algorithm./homepage', 'https://nicholaswinter.github.io/slave2al/FinalSubmission/hey/index.html', 'https://youtu.be/apVpvDNcP1o', 'https://v1nnyb4rt3l5.github.io/Slave-To-The-Algorithm-/Week%2012./MyTypeGenerator/index.html', 'https://arrthuzdkdkdk.github.io/algorithmslave/jazzcats2/', 'https://jinnilow.github.io/slavetoalgorithm/MEMCO_JINNI/', 'https://shuchenwuu.github.io/Slave-to-algorithm//Processing/Emotion_Printer/', 'https://evie102214.github.io/slave_to_the_algorithm_2020/homepage_ass3/', 'https://github.com/GarveyMak123/Slave-to-the-Algorithm/tree/master/StarField', 'https://kathyminhanh97.github.io/slavetothealgorithm/showcase'];
     for(s=0; s<students.length; s++){
       newArtist = new Artist(students[s], random(0, width-50), random(0, height-50), links[s]);
       names.push(newArtist);  
@@ -55,9 +55,10 @@ function setup(){
 };
 function draw(){
   push();
+  let m=minute();
   colorMode(HSB, width);
   for (let j = 0; j < width; j++) {
-    stroke(j, width);
+    stroke(m/60*width,j, 3*width/4);
     line(j, 0, j, height);
   }
   pop();
@@ -148,7 +149,7 @@ function segment(c,w,x,y,a){
   
   text(c,0,0);
   
-  pg.text(c,0,0);
+  //pg.text(c,0,0);
   pop();
 }
 
